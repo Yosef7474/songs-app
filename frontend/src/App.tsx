@@ -21,7 +21,7 @@ const App: React.FC = () => {
       <GlobalStylesComponent />
       <AppContainer>
         <Header>
-          <HeaderTitle>🎵 Song Management System</HeaderTitle>
+          <HeaderTitle>🎵 Songs </HeaderTitle>
           <HeaderSubtitle>Manage your music collection with ease</HeaderSubtitle>
         </Header>
         

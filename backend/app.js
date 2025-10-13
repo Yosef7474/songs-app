@@ -14,6 +14,12 @@ app.use(express.json());
 // Routes
 app.use('/api', songRoutes);
 
+// Root route
+app.get('/', (req, res) => {
+  res.json({ 
+    message: 'Welcome to the Songs API',
+  });
+});
 
 // Database connection
 const connectDB = async () => {
