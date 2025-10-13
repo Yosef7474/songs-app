@@ -4,17 +4,15 @@ const cors = require('cors');
 require('dotenv').config();
 const app = express();
 
-// const songRoutes = require('./routes/songRoutes');
+const songRoutes = require('./routes/songs.Routes');
 const PORT = process.env.PORT || 5000;
 
 // Middleware
 app.use(cors());
 app.use(express.json());
 
-
-
 // Routes
-// app.use('/api', songRoutes);
+app.use('/api', songRoutes);
 
 
 // Database connection
@@ -28,7 +26,7 @@ const connectDB = async () => {
   }
 };
 
-
+// server start
 connectDB().then(() => {
   app.listen(PORT, () => {
     console.log(`Server is running on port ${PORT}`);
