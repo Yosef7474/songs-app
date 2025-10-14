@@ -163,21 +163,21 @@ const CloseButton = styled.button`
 
 // Common music genres with proper capitalization for display
 const GENRES = [
-  'Pop',
-  'Rock',
-  'Hip-Hop',
-  'Jazz',
-  'Classical',
-  'Electronic',
-  'Reggae',
-  'Country',
-  'R&B',
-  'Metal',
-  'Folk',
-  'Blues',
-  'Latin',
-  'K-Pop',
-  'Indie'
+  'pop',
+  'rock',
+  'hip-Hop',
+  'jazz',
+  'classical',
+  'electronic',
+  'reggae',
+  'country',
+  'r&B',
+  'metal',
+  'folk',
+  'blues',
+  'latin',
+  'k-Pop',
+  'indie'
 ];
 
 // Function to normalize genre for API calls (lowercase)
