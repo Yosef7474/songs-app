@@ -148,11 +148,9 @@ const initialFormData: SongFormData = {
 };
 
 // Common genres for suggestions
-const COMMON_GENRES = [
-  'Pop', 'Rock', 'Hip-Hop', 'Jazz', 'Classical',
-  'Electronic', 'Reggae', 'Country', 'R&B', 'Metal',
-  'Folk', 'Blues', 'Latin', 'K-Pop', 'Indie'
-];
+const COMMON_GENRES = ['pop', 'rock', 'hip-hop', 'jazz', 'classical', 'electronic', 'reggae', 'country', 'r&b', 'metal', 'folk', 'blues', 'latin', 'k-pop', 'indie']
+
+
 
 interface SongFormProps {
   editingSong?: Song | null;
