@@ -1,0 +1,9 @@
+services:
+  backend:
+    build: .
+    ports:
+      - "5000:5000"
+    environment:
+      - NODE_ENV=production
+      - MONGODB_URI=mongodb+srv://yosefdejene747_db_user:csMNZRTBPFAOV9Wn@song.4wybqpo.mongodb.net/?retryWrites=true&w=majority&appName=song
+    restart: unless-stopped
