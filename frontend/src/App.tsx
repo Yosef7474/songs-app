@@ -15,7 +15,6 @@ import {
   FullWidthSection 
 } from './styles/GlobalStyle';
 
-
 const App: React.FC = () => {
   return (
     <Provider store={store}>
