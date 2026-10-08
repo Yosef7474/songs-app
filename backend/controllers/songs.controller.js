@@ -51,7 +51,6 @@ const getSongById = async (req, res) => {
     });
   }
 };
-
 // Update song
 const updateSong = async (req, res) => {
   try {
